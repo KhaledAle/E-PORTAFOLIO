@@ -1,5 +1,5 @@
 // Reemplaza el valor por tu usuario público de GitHub.
-const GITHUB_USERNAME = '[TU_USUARIO]';
+const GITHUB_USERNAME = 'KhaledAle';
 const GITHUB_API_URL = `https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=12`;
 
 const projectsGrid = document.querySelector('#projects-grid');
@@ -39,7 +39,7 @@ function showProjectMessage(message) {
 }
 
 async function loadRepositories() {
-  if (!GITHUB_USERNAME || GITHUB_USERNAME === '[KhaledAle]') {
+  if (!GITHUB_USERNAME || GITHUB_USERNAME === '[TU_USUARIO]') {
     projectsStatus.textContent = 'Configura tu usuario para cargar proyectos.';
     githubProfile.hidden = true;
     showProjectMessage('Reemplaza [TU_USUARIO] en script.js por tu nombre de usuario de GitHub.');
