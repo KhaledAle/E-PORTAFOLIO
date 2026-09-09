@@ -1,2 +1,2 @@
 # E-PORTAFOLIO
-Portafolio de Janampa Jaime Khaled Alejandro
+Portafolio de Khaled Alejandro Janampa Jaime

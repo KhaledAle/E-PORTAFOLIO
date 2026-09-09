@@ -39,7 +39,7 @@ function showProjectMessage(message) {
 }
 
 async function loadRepositories() {
-  if (!GITHUB_USERNAME || GITHUB_USERNAME === '[TU_USUARIO]') {
+  if (!GITHUB_USERNAME || GITHUB_USERNAME === '[KhaledAle]') {
     projectsStatus.textContent = 'Configura tu usuario para cargar proyectos.';
     githubProfile.hidden = true;
     showProjectMessage('Reemplaza [TU_USUARIO] en script.js por tu nombre de usuario de GitHub.');
