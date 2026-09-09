@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio electrónico académico de desarrollo de aplicaciones web.">
+  <title>Portafolio electrónico | Desarrollo web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true">PE</span>
+        <span>Portafolio<br><strong>electrónico</strong></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#cuaderno">Cuaderno</a>
+        <a href="#reflexion-final">Reflexión</a>
+        <a href="#bibliografia">Bibliografía</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-shell" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Desarrollo de Aplicaciones Web · Ciclo 9</p>
+        <h1 id="hero-title">Aprender, construir<br><em>y dejar huella.</em></h1>
+        <p class="hero-intro">Bienvenido a mi portafolio electrónico académico: un espacio para documentar mi proceso, mostrar mis proyectos y convertir cada práctica en evidencia de aprendizaje.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#cuaderno">Explorar mi cuaderno <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-note" aria-label="Resumen académico">
+        <span class="note-line"></span>
+        <p>Una bitácora de<br><strong>ideas, código<br>y evolución.</strong></p>
+        <span class="note-number">01 / 06</span>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="sobre-mi" aria-labelledby="sobre-mi-title">
+      <div class="section-shell two-column">
+        <div class="section-heading">
+          <p class="eyebrow">01 · Perfil</p>
+          <h2 id="sobre-mi-title">Sobre mí</h2>
+        </div>
+        <div class="about-content">
+          <p class="lead">Soy estudiante de Desarrollo de Aplicaciones Web y me interesa transformar problemas reales en experiencias digitales claras, accesibles y útiles.</p>
+          <div class="about-grid">
+            <div>
+              <h3>Lo que me mueve</h3>
+              <p>Explorar cómo funcionan las interfaces, organizar la información y encontrar soluciones sencillas que ayuden a las personas.</p>
+            </div>
+            <div>
+              <h3>Hacia dónde voy</h3>
+              <p>Quiero fortalecer mis bases de frontend y backend para participar en proyectos colaborativos con criterio técnico y creativo.</p>
+            </div>
+          </div>
+          <ul class="tag-list" aria-label="Intereses tecnológicos">
+            <li>HTML semántico</li>
+            <li>CSS responsive</li>
+            <li>JavaScript</li>
+            <li>Git y GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="proyectos" aria-labelledby="proyectos-title">
+      <div class="section-shell">
+        <div class="section-heading heading-light">
+          <p class="eyebrow">02 · Evidencia</p>
+          <h2 id="proyectos-title">Proyectos concluidos</h2>
+          <p class="section-description">Estos proyectos se cargan automáticamente desde mis repositorios públicos de GitHub.</p>
+        </div>
+        <div class="projects-toolbar">
+          <p id="projects-status" class="status" role="status" aria-live="polite">Cargando repositorios...</p>
+          <a id="github-profile" class="text-link text-link-light" href="#" target="_blank" rel="noreferrer">Ver perfil de GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section" id="cuaderno" aria-labelledby="cuaderno-title">
+      <div class="section-shell">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">03 · Proceso</p>
+            <h2 id="cuaderno-title">Cuaderno de aprendizaje</h2>
+          </div>
+          <p class="section-description">Una colección progresiva de temas, prácticas y preguntas que acompañan el curso.</p>
+        </div>
+
+        <!-- Duplica un article semana para añadir más semanas al portafolio. -->
+        <div class="weeks-list">
+          <article class="week-entry">
+            <div class="week-label"><span>Semana</span><strong>01</strong></div>
+            <div class="week-body">
+              <h3>Fundamentos de la web</h3>
+              <div class="week-columns">
+                <div>
+                  <h4>Temas aprendidos</h4>
+                  <p class="placeholder">Escribe aquí las definiciones y procedimientos con tus propias palabras.</p>
+                </div>
+                <div>
+                  <h4>Ejercicios de laboratorio y resultados</h4>
+                  <pre><code>// Pega aquí código o describe
+// el resultado de tu práctica.</code></pre>
+                </div>
+                <div>
+                  <h4>Reflexión semanal</h4>
+                  <p class="placeholder">¿Qué aprendí? ¿Cómo aprendí? ¿Qué puedo mejorar?</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="week-entry">
+            <div class="week-label"><span>Semana</span><strong>02</strong></div>
+            <div class="week-body">
+              <h3>HTML semántico y estructura</h3>
+              <div class="week-columns">
+                <div>
+                  <h4>Temas aprendidos</h4>
+                  <p class="placeholder">Añade tus definiciones, conceptos clave y procedimientos.</p>
+                </div>
+                <div>
+                  <h4>Ejercicios de laboratorio y resultados</h4>
+                  <pre><code>// Captura, código o resultado
+// de la actividad de laboratorio.</code></pre>
+                </div>
+                <div>
+                  <h4>Reflexión semanal</h4>
+                  <p class="placeholder">¿Qué aprendí? ¿Cómo aprendí? ¿Qué dificultades tuve?</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="week-entry week-template">
+            <div class="week-label"><span>Semana</span><strong>03</strong></div>
+            <div class="week-body">
+              <h3>Escribe el título de la semana</h3>
+              <div class="week-columns">
+                <div>
+                  <h4>Temas aprendidos</h4>
+                  <p class="placeholder">Reemplaza este texto con tus definiciones y procedimientos.</p>
+                </div>
+                <div>
+                  <h4>Ejercicios de laboratorio y resultados</h4>
+                  <pre><code>// Reemplaza este bloque con tu código.</code></pre>
+                </div>
+                <div>
+                  <h4>Reflexión semanal</h4>
+                  <p class="placeholder">Redacta qué aprendiste y cómo construiste ese aprendizaje.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="add-week-note"><span aria-hidden="true">+</span> Para continuar, duplica una tarjeta <code>&lt;article class="week-entry"&gt;</code> y actualiza su número y contenido.</p>
+      </div>
+    </section>
+
+    <section class="section section-accent" id="reflexion-final" aria-labelledby="reflexion-title">
+      <div class="section-shell reflection-layout">
+        <div class="section-heading">
+          <p class="eyebrow">04 · Cierre</p>
+          <h2 id="reflexion-title">Reflexión final</h2>
+        </div>
+        <div class="reflection-copy">
+          <p class="quote-mark" aria-hidden="true">“</p>
+          <p class="lead">Este espacio queda reservado para mi reflexión metacognitiva global al finalizar el curso.</p>
+          <p class="placeholder">Redacta aquí qué aprendiste, cómo aprendiste, qué estrategias funcionaron, qué retos enfrentaste y cómo aplicarás estos conocimientos en tus próximos proyectos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="bibliografia" aria-labelledby="bibliografia-title">
+      <div class="section-shell bibliography-layout">
+        <div class="section-heading">
+          <p class="eyebrow">05 · Fuentes</p>
+          <h2 id="bibliografia-title">Bibliografía</h2>
+        </div>
+        <div>
+          <ol class="bibliography-list">
+            <li><span class="source-type">Documentación</span><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noreferrer">MDN Web Docs. HTML: Lenguaje de etiquetas de hipertexto.</a></li>
+            <li><span class="source-type">Documentación</span><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noreferrer">MDN Web Docs. CSS: Hojas de estilo en cascada.</a></li>
+            <li><span class="source-type">Documentación</span><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noreferrer">MDN Web Docs. JavaScript.</a></li>
+            <li><span class="source-type">Documentación</span><a href="https://docs.github.com/es/rest" target="_blank" rel="noreferrer">GitHub Docs. Documentación de la API REST.</a></li>
+            <li><span class="source-type">Libro</span><span>Agrega aquí libros consultados durante el curso.</span></li>
+          </ol>
+          <aside class="bibliography-note"><strong>Nota académica:</strong> registra libros, artículos y documentación oficial. Según los requerimientos, no se deben incluir videos en esta bibliografía.</aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-inner">
+      <p>Portafolio electrónico · Desarrollo de Aplicaciones Web</p>
+      <a href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
